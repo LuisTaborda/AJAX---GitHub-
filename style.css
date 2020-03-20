@@ -1,10 +1,10 @@
 *{
     padding:0;
-    margin: 0;
     box-sizing: border-box;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100%;
+    background-color:#fff;
 }
 #table {
     border-collapse: collapse;
@@ -25,7 +25,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(255, 0, 0);
     color: white;
   }
 
@@ -33,9 +33,33 @@
 
     margin-left: 15px;
     margin-right: 15px;
+    width: 80%;
 }
 
 img{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#app button{
+  border-style:none;
+  border:1px solid red;
+  padding:2px;
+}
+
+#app button:hover{
+  border-style:none;
+  border:1px solid red;
+  color:red;
+  padding:2px;
+}
+
+a:link{
+  color:red;
+  text-decoration: none;
+}
+
+a:link:hover{
+  color:#cc0000;
+  text-decoration:underline;
 }
